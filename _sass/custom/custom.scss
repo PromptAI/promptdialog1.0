@@ -1,0 +1,58 @@
+.header {
+  color: white;
+  position: relative;
+  overflow: hidden;
+  &:after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    transform: translateX(-100%);
+    background: $purple-000;
+    z-index: -1;
+  }
+  display: none;
+}
+.language {
+  display: flex;
+  align-items: center;
+}
+.custom-header {
+  display: flex;
+  align-items: center;
+  @include container;
+  &>h2 {
+    margin-bottom: 0;
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  flex: 1;
+}
+.nav-list-spilter {
+  margin-bottom: $sp-4 !important;
+}
+
+.nav-hr {
+  margin: 1rem;
+}
+.nav-other {
+  margin: 0;
+  padding: 0 2rem;
+  &:hover {
+    text-decoration: underline;
+  } 
+}
+
+.custom-title-mark {
+  font-size: 14px;
+  margin-top: 4px;
+  margin-left: 8px;
+  border: 1px solid #7253ed;
+  border-radius: 4px;
+  padding: 2px;
+}
