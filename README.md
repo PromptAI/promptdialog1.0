@@ -32,7 +32,7 @@ Open [http://localhost:4000](http://localhost:4000) in your browser.
 
 ### Local Installation of PromptDialog 1.0 Service:
 ```shell
-curl -o install.sh 'https://cdn.githubraw.com/PromptAI/homepage/main/scripts/install_en.sh' && chmod +x install.sh && ./install.sh
+curl -o install.sh 'https://cdn.githubraw.com/PromptAI/promptdialog1.0/main/script/install.sh' && chmod +x install.sh && ./install.sh
 ```
 
 After running, you can access the PromptDialog app in your browser at [http://localhost:9000](http://localhost:9000).
